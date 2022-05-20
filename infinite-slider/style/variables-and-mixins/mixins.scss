@@ -1,0 +1,24 @@
+@mixin displayFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin displayFlexRow {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+@mixin buttonSettings {
+    background-color: transparent;
+    width: $button-dimesions;
+    height: $button-dimesions;   
+    border: 1px solid $top-and-bottom-bckgr-color; 
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@mixin text {
+    margin-top: auto;
+    font-family: 'Source Sans Pro';  
+}

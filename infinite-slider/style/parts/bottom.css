@@ -1,0 +1,16 @@
+.bottom-container {
+  background-color: #DDDDDD;
+  width: 941px;
+  height: 100px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.bottom-container p {
+  font-family: 'HelveticaNeue';
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 81px;
+  margin-top: 42px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=bottom.css.map */

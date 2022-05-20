@@ -1,0 +1,116 @@
+@import '../variables-and-mixins/mixins.scss';
+@import '../variables-and-mixins/variables.scss';
+
+//MIDDLE
+.middle-container{
+    @include displayFlexRow();
+    column-gap: $gapTwenty;
+    justify-content: flex-end;
+}
+.main-slider-container{
+    @include displayFlexColumn();
+    row-gap: $gap;
+    margin-left: -700px;
+    overflow: hidden;
+    width: 1230px;
+}
+
+.first-slider-container{
+    @include displayFlexRow();
+    column-gap: $gap;
+}
+
+.first-slider-container img{
+    border-radius: $img-button-border-radius;
+    height: 200px;
+}
+
+.second-slider-container{
+    @include displayFlexRow();
+    column-gap: $gap;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.second-slider-container img{
+    border-radius: $img-button-border-radius;
+    height: 200px;
+}
+
+.move-div-first {
+    @include displayFlexRow();
+    column-gap: $gap;
+}
+
+.move-div-second {
+    @include displayFlexRow();
+    column-gap: $gap;
+    position: relative;
+    left: -80px;
+}
+
+.middle-bottom{
+    @include displayFlexRow();
+    column-gap: 100px;
+    justify-content: end;
+}
+
+.buttons{
+    @include displayFlexColumn();
+    width: 60px;
+    row-gap: $gap;
+}
+
+.main-text-container{
+    @include displayFlexColumn();
+    width: $text-width;
+    row-gap: $gapTwenty;
+}
+
+.title-page-text{
+    width: $text-width;
+    height: 120px;
+}
+
+.title-page-text h2{
+    @include text();
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.2px;
+
+    color: $title-text-color;
+}
+
+.page-text p{
+    @include text();
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+
+    color: $text-color;
+}
+
+#btn-left{
+    @include buttonSettings();
+    background-image: url(../images/arrow-images/arrow-gray-left.png);
+    border-radius: $img-button-border-radius;
+}
+
+#btn-left:hover{
+    background-image: url(../images/arrow-images/arrow-blue-left.png);
+    border: $button-hover-border;
+}
+
+#btn-right{
+    @include buttonSettings();
+    background-image: url(../images/arrow-images/arrow-gray-right.png);
+    border-radius: $img-button-border-radius;
+}
+
+#btn-right:hover{
+    background-image: url(../images/arrow-images/arrow-blue-right.png);
+    border: $button-hover-border;
+}

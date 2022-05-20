@@ -1,0 +1,36 @@
+.top-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 941px;
+  height: 100px;
+  margin-top: 0px;
+  -webkit-column-gap: 19px;
+          column-gap: 19px;
+}
+
+.top-box-one {
+  background-color: #DDDDDD;
+  width: 301px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.top-box-two {
+  background-color: #DDDDDD;
+  width: 621px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.top-box-two p {
+  font-family: 'HelveticaNeue';
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 80px;
+  margin-top: 39px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=top.css.map */

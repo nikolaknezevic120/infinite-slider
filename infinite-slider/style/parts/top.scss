@@ -1,0 +1,33 @@
+@import '../variables-and-mixins/mixins.scss';
+@import '../variables-and-mixins/variables.scss';
+
+//TOP
+.top-container{
+    @include displayFlexRow();
+    width: $max-width;
+    height: $top-and-bottom-height;
+    margin-top: 0px;
+    column-gap: 19px;
+}
+
+.top-box-one{
+    background-color: $top-and-bottom-bckgr-color;
+    width: 301px;
+    border-radius: $box-border-radius;
+}
+
+.top-box-two{
+    background-color: $top-and-bottom-bckgr-color;
+    width: 621px;
+    border-radius: $box-border-radius;
+}
+
+.top-box-two p{
+    font-family: 'HelveticaNeue';
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 80px;
+    margin-top: 39px;
+    color: $text-in-box-color;
+
+}

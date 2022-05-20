@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,iBAAiB,CAAA;EACb,gBAAgB,EELS,OAAO;EFMhC,KAAK,EEJG,KAAK;EFKb,MAAM,EENc,KAAK;EFOzB,aAAa,EEKU,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG;CFJzC;;AAED,AAAA,iBAAiB,CAAC,CAAC,CAAA;EACf,WAAW,EAAE,eAAe;EAC5B,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,IAAI;EAChB,KAAK,EENW,OAAO;CFQ1B",
+    "sources": [
+        "bottom.scss",
+        "../variables-and-mixins/mixins.scss",
+        "../variables-and-mixins/variables.scss"
+    ],
+    "names": [],
+    "file": "bottom.css"
+}
