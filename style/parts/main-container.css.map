@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,eAAe,CAAA;ECHX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EDItB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,WAAW,EEJc,KAAK;EFK9B,KAAK,EEPG,KAAK;EFQb,OAAO,EEHI,IAAI;CFIlB",
+    "sources": [
+        "main-container.scss",
+        "../variables-and-mixins/mixins.scss",
+        "../variables-and-mixins/variables.scss"
+    ],
+    "names": [],
+    "file": "main-container.css"
+}

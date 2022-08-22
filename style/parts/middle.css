@@ -1,0 +1,196 @@
+.middle-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main-slider-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  margin-left: -700px;
+  overflow: hidden;
+  width: 1230px;
+}
+
+.first-slider-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.first-slider-container img {
+  border-radius: 5px;
+  height: 200px;
+}
+
+.second-slider-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.second-slider-container img {
+  border-radius: 5px;
+  height: 200px;
+}
+
+.move-div-first {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.move-div-second {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  position: relative;
+  left: -80px;
+}
+
+.middle-bottom {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60px;
+  row-gap: 10px;
+}
+
+.main-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300.93px;
+  row-gap: 20px;
+}
+
+.title-page-text {
+  width: 300.93px;
+  height: 120px;
+}
+
+.title-page-text h2 {
+  margin-top: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 32px;
+  line-height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: -0.2px;
+  color: #134880;
+}
+
+.page-text p {
+  margin-top: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #484A4C;
+}
+
+#btn-left {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DDDDDD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/arrow-images/arrow-gray-left.png);
+  border-radius: 5px;
+}
+
+#btn-left:hover {
+  background-image: url(../images/arrow-images/arrow-blue-left.png);
+  border: 1px solid #134880;
+}
+
+#btn-right {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DDDDDD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/arrow-images/arrow-gray-right.png);
+  border-radius: 5px;
+}
+
+#btn-right:hover {
+  background-image: url(../images/arrow-images/arrow-blue-right.png);
+  border: 1px solid #134880;
+}
+/*# sourceMappingURL=middle.css.map */

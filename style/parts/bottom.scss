@@ -1,0 +1,20 @@
+@import '../variables-and-mixins/mixins.scss';
+@import '../variables-and-mixins/variables.scss';
+
+//BOTTOM
+.bottom-container{
+    background-color: $top-and-bottom-bckgr-color;
+    width: $max-width;
+    height: $top-and-bottom-height;
+    border-radius: $bottom-box-border-radius;
+}
+
+.bottom-container p{
+    font-family: 'HelveticaNeue';
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 81px;
+    margin-top: 42px;
+    color: $text-in-box-color;
+
+}

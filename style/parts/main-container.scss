@@ -1,0 +1,12 @@
+@import '../variables-and-mixins/mixins.scss';
+@import '../variables-and-mixins/variables.scss';
+
+//MAIN CONTAINER
+.main-container{
+    @include displayFlexColumn();
+    position: absolute;
+    top: 0px;
+    margin-left: $left-margin-main-container;
+    width: $max-width;
+    row-gap: $main-div-gap;
+}
